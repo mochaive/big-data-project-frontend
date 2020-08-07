@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-info {
+    color: #d58b71;
+    font-family: "NanumSquare", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 4px 2px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #d58b71;
+    border-left: none;
+    margin: 5px;
+    font-family: "NanumSquare", sans-serif;
+    font-size: 18px;
+    outline: none;
+}
